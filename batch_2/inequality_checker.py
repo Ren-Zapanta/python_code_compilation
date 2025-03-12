@@ -2,3 +2,8 @@
 #Asks the user for 2 inputs
 num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
+#Verify if inputs are equal or not
+if num_1 == num_2:
+    print("Equal")#Print equal if inputs are equal
+else:
+    print("Not Equal")#Print not equal if inputs are not equal
