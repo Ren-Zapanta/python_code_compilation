@@ -2,3 +2,6 @@
 num1 = int(input(f"Please input a number: "))
 num2 = int(input(f"Please input another number: "))
 
+get_product = num1 * num2
+
+print(get_product)
