@@ -13,3 +13,11 @@ while True:
     #appends converted user input
     duplicate_list.append(int(user_input))
 
+if duplicate_list:
+    #Verifies which element in th list is the most frequently inputted.
+    most_duplicated = max(duplicate_list, key=duplicate_list.count)
+    print(most_duplicated)
+else: #Prints if nothing is entered
+    print("Nothing entered") 
+
+
