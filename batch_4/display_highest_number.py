@@ -9,3 +9,13 @@ while True: #Loop to request entries from user
         break
 
     user_input = int(user_input) #converts user_input into int data type
+
+    if highest_value is None or user_input > highest_value: #Verifies if the current input is the highest one
+        highest_value = user_input
+#Verifies if at elast one number is inputted
+if highest_value is not None:
+    print(highest_value) #Prints the highest value input
+else:
+    print("Nothing Entered")#Prints if no input
+
+
