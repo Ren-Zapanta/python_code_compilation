@@ -5,3 +5,7 @@ input_list = []
 for i in range(10):
     user_input = int(input(f"Please input a value ({i + 1}): "))
     input_list.append(user_input)
+#Initialize list for unique inputs
+unique_input = [user_input for user_input in input_list if input_list.count(user_input) == 1]
+#print result
+print(unique_input)
