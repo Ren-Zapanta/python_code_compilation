@@ -11,4 +11,11 @@ while True:
         break
     #Converts data type
     user_input = int(user_input)
+     #appends user input to number list
+    number_list.append(user_input)
+    #use sort function to sort elments inside list
+    number_list.sort(reverse=True)
+#print sorted list
+print(number_list)
+
     
