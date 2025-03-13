@@ -13,3 +13,11 @@ while True:
 
     #Cnverts data type
     user_input = int(user_input)
+
+        #Verifies if input is already in list or not 
+    if user_input in input_list:
+        print("Duplicate") #Prints if duplicate input
+    else:
+        print("Unique") #Prints if input is unique
+        input_list.append(user_input) #adds new user input to list
+    
